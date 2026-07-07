@@ -1,0 +1,3 @@
+# Font assets directory
+# Google Fonts (Fredoka One, Quicksand) are loaded via google_fonts package at runtime
+# No local font files needed for development

@@ -1,0 +1,33 @@
+name: adventure_buddies
+description: A safe, ad-free, COPPA-friendly mobile game for preschoolers (2-5) to build foundational skills through adventures.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/fonts/

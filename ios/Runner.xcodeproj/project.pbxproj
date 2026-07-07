@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project toolsVersion="21701" xmlns="http://developer.apple.com/xcode/tools/1.0">
+  <column width="214" identifier="mainGroup"/>
+  <objects>
+    <rootObject type="PBXGroup" id="root">
+      <name>Runner</name>
+      <objects>
+        <PBXGroup name="Flutter">
+          <objects>
+            <PBXFileReference path="AppFrameworkInfo.plist"/>
+            <PBXFileReference path="Debug.xcconfig"/>
+            <PBXFileReference path="Release.xcconfig"/>
+            <PBXFileReference path="Flutter.h"/>
+          </objects>
+        </PBXGroup>
+        <PBXGroup name="Runner">
+          <objects>
+            <PBXFileReference path="AppDelegate.swift"/>
+            <PBXFileReference path="GeneratedPluginRegistrant.swift"/>
+            <PBXFileReference path="Info.plist"/>
+            <PBXGroup name="Base.lproj">
+              <objects>
+                <PBXFileReference path="LaunchScreen.storyboard"/>
+                <PBXFileReference path="Main.storyboard"/>
+              </objects>
+            </PBXGroup>
+          </objects>
+        </PBXGroup>
+        <PBXGroup name="Products">
+          <objects>
+            <PBXFileReference explicitFileType="wrapper.application" path="Runner.app"/>
+          </objects>
+        </PBXGroup>
+      </objects>
+    </rootObject>
+  </objects>
+</project>

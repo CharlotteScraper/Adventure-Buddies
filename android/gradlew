@@ -1,0 +1,11 @@
+#!/bin/bash
+export ANDROID_HOME=${ANDROID_HOME:-/opt/android-sdk}
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+
+cd "$(dirname "$0")"
+
+# Generate local.properties
+echo "flutter.sdk=${FLUTTER_ROOT:-/opt/flutter}" > ../local.properties
+echo "sdk.dir=$ANDROID_HOME" >> ../local.properties
+
+echo "Setup complete. Run: cd android && ./gradlew build"

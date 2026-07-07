@@ -1,0 +1,67 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+*.iml
+.idea/
+.vscode/
+*.lock
+*.log
+*.swp
+*.swo
+
+# Dart
+.dart_tool/
+.packages
+.pub-cache/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Podfile.lock
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+
+# macOS
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter.framework
+macos/Flutter/Generated.xcconfig
+macos/Runner.xcodeproj/xcuserdata/
+
+# Web
+web/build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Assets - Generated
+assets/images/icon_*.png
+
+# Environment
+.env
+.env.local
